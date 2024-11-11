@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "Olimpia.Controllers.DatasController",
+    "Method": "Post",
+    "RelativePath": "api/Datas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDataDTO",
+        "Type": "Olimpia.Models.DTOs\u002BCreateDataDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Olimpia.Models.Data",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Olimpia.Controllers.DatasController",
+    "Method": "Put",
+    "RelativePath": "api/Datas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDataDTO",
+        "Type": "Olimpia.Models.DTOs\u002BUpdateDataDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Olimpia.Models.Data",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

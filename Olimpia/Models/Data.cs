@@ -17,7 +17,7 @@ public partial class Data
 
     public DateTime UpdatedTime { get; set; }
 
-    public string PlayerId { get; set; } = null!;
+    public Guid PlayerId { get; set; }
 
     public virtual Player Player { get; set; } = null!;
 }
