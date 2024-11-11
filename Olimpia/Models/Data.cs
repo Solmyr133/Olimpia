@@ -5,7 +5,7 @@ namespace Olimpia.Models;
 
 public partial class Data
 {
-    public string Id { get; set; } = null!;
+    public Guid Id { get; set; }
 
     public string? Country { get; set; }
 
